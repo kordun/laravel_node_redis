@@ -10,7 +10,7 @@ use Redis;
 class TestRedisController extends Controller
 {
     public function test(){
-    	return Redis::publish("new-activity:planrep", json_encode(["name" => "Procurement of bricks"]));
+    	return Redis::publish("test:channel1", json_encode(["name" => "Test from channel One"]));
     }
 
 }

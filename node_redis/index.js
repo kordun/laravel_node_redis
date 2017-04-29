@@ -11,4 +11,4 @@ client.on('message', function(channel, message){
 	console.log("Message: " + message + " Channel " + channel);
 });
 
-client.subscribe("new-activity:planrep");
+client.subscribe("test:channel1");
