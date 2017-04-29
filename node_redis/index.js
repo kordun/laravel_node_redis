@@ -11,4 +11,4 @@ client.on('message', function(channel, message){
 	console.log("Message: " + message + " Channel " + channel);
 });
 
-client.subscribe("test:channel1");
+client.subscribe("activity:new");
